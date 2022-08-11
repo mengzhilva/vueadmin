@@ -38,7 +38,7 @@ module.exports = {
      proxy:{  
      //跨域配置项写此处
         "/api" : {
-            target:"http://admin.campapp.xyz",
+            target:"http://admin.xxx.xyz",
             changeOrigin:true,
             pathRewrite:{
                 "^/api" : ""
